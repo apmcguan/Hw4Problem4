@@ -10,7 +10,10 @@ int main() {
   cin >> N;
   if ((N >0 ) && ( N <=100))
     {
-      
+     for (int i=0; i< N; i++)
+       {
+         
+       }
     
     }
 }
