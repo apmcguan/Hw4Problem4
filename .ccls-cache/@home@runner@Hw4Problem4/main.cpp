@@ -12,8 +12,12 @@ int main() {
     {
      for (int i=0; i< N; i++)
        {
+         cin>> l;
+         sum +=l;
          
        }
-    
+    N = N - 1;
+      sum =sum - N;
+      cout << sum << endl;
     }
 }
